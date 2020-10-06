@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  width: 1060px;
+  margin: auto;
+}
+/*header*/
+
+#header_wrap {
+  background: url('headerbg.jpeg');
+  height: 430px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  color:#fff;
+}
+
+header p {
+  float:left;
+  margin-top: 15px;
+  font-size: 2rem;
+}
+
+
+.topMenu {
+  float:right;
+}
+
+.topMenu ul {
+  overflow: hidden;
+}
+
+.topMenu li {
+  float: left;
+  margin: 25px 10px;
+
+}
+
+
+.topMenu a {
+  color: #fff;
+  position: relative;
+}
+
+.topMenu ul li:hover a:before {
+  display: block;
+  content: "";
+  background-color: #ff5400;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+}
+
+.title {
+  clear:both;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+}
+
+#nav_wrap {
+  height: 40px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+.main_menu ul{
+overflow: hidden;
+display: inline-block;
+}
+
+.main_menu li {
+  float: left;
+  margin-left: 40px;
+  line-height: 42px;
+
+}
+
+.main_menu a {
+  position: relative;
+  font-weight: bold;
+  color: gray;
+}
+
+.current a {
+  color: #333;
+}
+
+.current a:before {
+  content: "";
+  background-color: #ff5400;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 27px;
+}
+
+.main_menu a:hover {
+  color: #333;
+}
+
+.main_menu li:hover a:before {
+
+  display: block;
+  content: "";
+  background-color: #ff5400;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 27px;
+}
+
+
+/*section*/
+
+section {
+  padding: 100px 0;
+}
+
+section > h2 {
+text-align: center;
+}
+
+section .orange {
+  display: block;
+  margin: 20px auto 40px auto;
+width: 65px;
+height: 5px;
+background-color: #ff5400;
+}
+
+.section01 > h2 {
+  text-align: center;
+}
+
+.section01 ul {
+  overflow: hidden;
+}
+
+.section01 li {
+  float: left;
+  margin-right: 20px;
+}
+
+.section01 li:last-child {
+  margin-right: 0;
+}
+
+.section01_txt {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.section01_txt strong {
+  font-size: 1.2em;
+}
+
+.section01_txt span {
+  font-size: 0.9em;
+  color: #626262;
+}
+
+.section02 {
+ overflow: hidden;
+ margin: 120px auto;
+ width: 750px;
+
+}
+
+.section02 div {
+  float: left;
+  width: 250px;
+  height: 270px;
+  text-align:center;
+  padding: 30px;
+  box-sizing: border-box;
+
+}
+
+.section02 div img {
+  width: 80px;
+}
+
+.section02 div h3 {
+  margin: 20px 0;
+}
+
+.section02 div p {
+  color: #6c6c6c;
+  font-size: 0.7em;
+}
+
+.section02 div:nth-child(1) {
+  background-color:#efeded;
+}
+
+.section02 div:nth-child(2) {
+  background-color:#e2e2e2;
+}
+
+.section02 div:nth-child(3) {
+  background-color:#efeded;
+}
+
+
+.section03 {
+overflow: hidden;
+}
+
+.section03 h1, h4 {
+  text-align: center;
+
+}
+
+.section03 h1 {
+  font-size: 1.9em;
+}
+
+.section03_1 {
+float: left;
+margin-right: 20px;
+
+}
+
+.section03_2 {
+float: left;
+
+}
+
+.section03_2 div:first-child {
+  margin-bottom: 14px;
+}
+
+.section033 {
+  float: left;
+  width: 400px;
+
+}
+
+.sec3_txt {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.sec3_txt  h3 {
+  color: gray;
+}
+
+.sec3_txt p {
+  margin-top: 20px;
+}
+
+
+.more a{
+  color: black;
+  font-weight: bold;
+}
+
+.sns {
+margin-left: 3px;
+}
+
+.sns ul {
+overflow: hidden;
+}
+
+.sns li {
+float: left;
+margin-left:15px;
+}
+
+
+.sns img {
+  width: 30px;
+}
+
+
+.section04 {
+margin-top: 100px;
+}
+
+.gray {
+  display: block;
+width: 60px;
+height: 3px;
+background-color: black;
+}
+
+.section04 h4 {
+  text-align: left;
+  font-size: 1.6em;
+}
+
+
+
+.imgs ul {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.imgs li {
+  float: left;
+  margin-right: 20px;
+
+}
+
+.imgs li:last-child {
+  margin-right: 0;
+}
+
+#footer_wrap {
+ background-color:#e2e2e2;
+ height: 150px;
+
+}
+
+.footer_left {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.footer_left h4 {
+  color: gray;
+  text-align: left;
+  padding-top: 3px;
+}
+
+.footer_left h1 {
+  padding-top: 3px;
+}
+
+.footer_gray {
+
+  padding:3px;
+  display: block;
+width: 25px;
+height: 3px;
+background-color: gray;
+}
+
+.footer_right {
+  padding-top: 30px;
+  width: 300px;
+  float: right;
+  text-align: right;
+}
